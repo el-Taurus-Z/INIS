@@ -139,7 +139,50 @@ main{
 
 .buttons button{
     width: 80px;
-    height: 30px;
+    height: 40px;
     border-radius: 10px;
-    cursor:pointer
+    cursor:pointer;
+    font-size: 14px;
+}
+
+.btn2{background-color: rgb(71, 71, 190); color: white}
+.btn3{background-color: rgb(172, 48, 48); color: #fff;}
+.btn4{background-color: rgb(255, 80, 109); color: black;}
+.btn7{background-color: rgb(97, 97, 211); color: white}
+.btn8{background-color: red; color: #fff;}
+.btn9{background-color: rgb(26, 70, 26); color: #fff;}
+.btn10{background-color: rgb(138, 138, 33);}
+.btn13{background-color: rgb(236, 73, 100); color: black;}
+
+.name{
+    position: absolute;
+    top: 220px;
+    left: 150px;
+}
+
+.card img{
+    width: 200px;
+    margin: 20px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.card h2{
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: 100px;
+    text-align: center;
+}
+.card button{
+    margin-left: 170px;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(42, 42, 71);
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.wrapper{
+    height: 600px;
 }
